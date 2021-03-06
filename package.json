@@ -1,0 +1,20 @@
+{
+	"name": "finalprojectfe05",
+	"version": "1.0.0",
+	"description": "Final Project | Front End 05 - Online Ecommerce",
+	"main": "index.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alingrig87/FinalProjectFE05.git"
+	},
+	"author": "Alin Grigorescu",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/alingrig87/FinalProjectFE05/issues"
+	},
+	"homepage": "https://github.com/alingrig87/FinalProjectFE05#readme",
+	"dependencies": {
+		"json-server": "^0.16.3"
+	}
+}
