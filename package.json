@@ -1,20 +1,27 @@
 {
-	"name": "finalprojectfe05",
+	"name": "finalproject",
 	"version": "1.0.0",
-	"description": "Final Project | Front End 05 - Online Ecommerce",
+	"description": "Final Project | Online Ecommerce",
 	"main": "index.js",
-	"scripts": {},
+	"scripts": {
+		"start-db": "json-server --watch api/db.json",
+		"start": "serve"
+	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/alingrig87/FinalProjectFE05.git"
+		"url": "git+https://github.com/DanielSusman/FinalProject.git"
 	},
-	"author": "Alin Grigorescu",
+	"author": "Daniel Susman",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/alingrig87/FinalProjectFE05/issues"
+		"url": "https://github.com/DanielSusman/FinalProject/issues"
 	},
-	"homepage": "https://github.com/alingrig87/FinalProjectFE05#readme",
+	"homepage": "https://github.com/DanielSusman/FinalProject#readme",
 	"dependencies": {
-		"json-server": "^0.16.3"
+		"bootstrap": "^4.6.0",
+		"bootswatch": "^4.6.0",
+		"font-awesome": "^4.7.0",
+		"json-server": "^0.16.3",
+		"serve": "^11.3.2"
 	}
 }

@@ -1,0 +1,57 @@
+/* admin */
+
+.admin-console {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 15px;
+  table-layout: auto;
+  width: 98%;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  background-color: white;
+}
+
+thead {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.add-product-details {
+  margin: 20px;
+}
+
+.add-product-details label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.add-product-details input {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.add-product-details input:focus {
+  outline: none;
+  border-color: #d0ad67;
+}
+
+.add-product-header {
+  margin: 20px;
+}
+
+.remove {
+  color: red;
+}
+
+.admin-container {
+  margin: 30px 125px;
+}

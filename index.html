@@ -1,12 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Home</title>
-	</head>
-	<body>
-		<script src="src/app.js"></script>
-	</body>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Welcome to the WinesWorld!">
+	<meta name="keywords" content="Wines, Wines shop, Romania">
+	<title>WinesWorld | Welcome</title>
+	<link rel="stylesheet" href="../styles/normalize.css">
+	<link rel="stylesheet" href="../styles/style.css" />
+	<link rel="stylesheet" href="../styles/index.css" />
+</head>
+
+<body>
+	<header>
+		<nav id="navbar">
+			<div class="container">
+				<img src="images/Logo.png" width="70" height="70" class="logo" alt="logo">
+				<ul>
+					<li><a class="current" href="index.html">Home</a></li>
+					<li><a href="about.html">Despre Noi</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="cart.html">Cos de cumparaturi</a></li>
+					<li><a href="admin.html">Admin</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<section>
+		<div id="showcase">
+			<div class="container">
+				<div class="showcase-content">
+					<img src="/images/intro.jpg" alt="info">
+					<h1><span class="text-primary">Welcome</span> to our World!</h1>
+					<p class="intro">Bine ai venit în rândul iubitorilor de vinuri bune!</p>
+					<p class="intro">Aici vei găsi mereu inspirație și savoarea celor mai premiate vinuri din țară și
+						din lume.</p>
+					<a class="btn" href="/about.html">Despre Noi</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div id="output" class="output">
+		</div>
+	</section>
+
+	<div class="social">
+		<a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+		<a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+		<a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+	</div>
+
+	<footer id="main-footer">
+		<div class="footer-list">
+			<ul>
+				<li><a href="/about.html">Despre noi</a></li>
+				<li><a href="#">Politică de confidențialitate</a></li>
+				<li><a href="#">Termenii şi condiţiile</a></li>
+				<li><a href="#">Politica Cookies</a></li>
+				<li><a href="/contact.html">Contact</a></li>
+				<li><a href="https://anpc.ro/" target="_blank">ANPC</a></li>
+			</ul>
+		</div>
+		<div>
+			<img src="/images/MobilPay.jpg" alt="payment">
+		</div>
+		<p>Wines World &copy; 2021 All Rights Reserved</p>
+	</footer>
+
+	<script src="src/index.js" type="module"></script>
+	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

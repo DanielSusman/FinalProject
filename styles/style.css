@@ -1,0 +1,152 @@
+/* Main styling */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5em;
+  background-color: #f6eede;
+  height: 100%;
+}
+
+a {
+  color: #212121;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Utility */
+.container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.text-primary {
+  color: #b61e44;
+}
+
+.intro {
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.7em;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  background-color: #212121;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #d0ad67;
+}
+
+.btn-dark {
+  background-color: #212121;
+  color: #eeeeee;
+}
+
+.btn-dark:hover {
+  background-color: #212121;
+  color: #d0ad67;
+}
+
+.bg-light {
+  background-color: #ffe3d8;
+}
+
+.bg-blue {
+  background-color: #d0ad67;
+  color: #eeeeee;
+}
+
+/* Navbar */
+#navbar {
+  background-color: #d0ad67;
+  color: #eeeeee;
+  overflow: hidden;
+  box-shadow: 5px 10px 8px #888888;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#navbar a {
+  color: #eeeeee;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover {
+  background-color: #eeeeee;
+  color: #212121;
+}
+
+#navbar .current {
+  background-color: #eeeeee;
+  color: #212121;
+}
+
+img {
+  padding-top: 20px;
+}
+
+/* Social */
+.social {
+  left: 50px;
+  bottom: 50px;
+  display: flex;
+}
+.social a {
+  margin: 6px 12px;
+}
+.social i {
+  color: black;
+  font-size: 30px;
+}
+.social a:hover i {
+  color: #b61e44;
+  transition: all ease 0.5s;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background-color: #d0ad67;
+  color: white;
+  padding: 10px;
+}
+
+.footer-list ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 150px;
+  margin-right: 150px;
+}

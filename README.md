@@ -8,7 +8,7 @@ Online ecommerce platform
 
 ### Author
 
-Alin Grigorescu
+Daniel Susman
 
 ### Project init
 

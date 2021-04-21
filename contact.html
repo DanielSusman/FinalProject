@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Welcome to the WinesWorld!">
+    <meta name="keywords" content="Wines, Wines shop, Romania">
+    <title>WinesWorld | Welcome</title>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+				<img src="images/Logo.png" width="70" height="70" class="logo" alt="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Despre Noi</a></li>
+                    <li><a class="current" href="contact.html">Contact</a></li>
+                    <li><a href="cart.html">Cos de cumparaturi</a></li>
+                    <li><a href="admin.html">Admin</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<div class="container-about">
+    <form class="form" id="contact-form">
+        <div class="form-container">
+            <h1><span class="text-primary">Get In Touch!</span></h1>
+            <div>
+                <div class="form-group">
+                    <label for="name">Numele dvs:</label>
+                    <input type="text" name="name" id="name" placeholder="...">
+                    <br>
+                    <small>Error message</small>
+                </div>
+                <div class="form-group">
+                    <label for="email">Emailul dvs:</label>
+                    <input type="email" name="email" id="email" placeholder="...">
+                    <br>
+                    <small>Error message</small>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesajul dvs:</label>
+                    <textarea name="message" id="message" placeholder="..."></textarea>
+                    <br>
+                    <small>Error message</small>
+                </div>
+                <button class="btn" type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+
+    <div class="maps">
+        <iframe width="500" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Cluj-Napoca+(WinesWorld)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+    </div>
+
+    <div class="contacts">
+        <h2 class="text-primary">Contactati-ne!</h2>
+        <i class="fa fa-envelope mt-3"></i> Email: contact@winesworld.com<br>
+        <i class="fa fa-phone mt-3"></i> Telefon: (+47) 45454545<br>
+        <i class="fa fa-globe mt-3"></i> Adresa: Str. Piata Unirii, nr.1, Cluj-Napoca<br>
+    </div>
+</div>
+    <div class="social">
+        <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <footer id="main-footer">
+        <div class="footer-list">
+            <ul>
+                <li><a href="/about.html">Despre noi</a></li>
+                <li><a href="#">Politică de confidențialitate</a></li>
+                <li><a href="#">Termenii şi condiţiile</a></li>
+                <li><a href="#">Politica Cookies</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="https://anpc.ro/" target="_blank">ANPC</a></li>
+            </ul>
+        </div>
+        <div>
+            <img src="/images/MobilPay.jpg" alt="payment">
+        </div>
+        <p>Wines World &copy; 2021 All Rights Reserved</p>
+    </footer>
+
+    <script src="src/contact.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

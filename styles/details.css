@@ -1,0 +1,52 @@
+.details-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.characteristics{
+    align-items: flex-start;
+    border: 1px solid  #d0ad67;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.main-description {
+    background-color: white;
+    border: 1px solid  #d0ad67;
+    color: #b61e44;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.description {
+    border: 1px solid  #d0ad67;
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.details-image{
+    padding: 0px;
+    border: 1px solid  #d0ad67;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#cantitate{
+    border: 1px solid  #d0ad67;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+}

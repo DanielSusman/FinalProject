@@ -1,0 +1,14 @@
+/* about info */
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+}
+.about-info span {
+  font-weight: bold;
+}
